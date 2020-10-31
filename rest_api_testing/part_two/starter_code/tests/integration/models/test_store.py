@@ -48,7 +48,7 @@ class StoreTest(IntegrationBaseTest):
 
             store.save_to_db()
             item.save_to_db()
-
+			
             expected_json = {
                 "name": "test",
                 "items": [{"name": "test_item", "price": 19.99}]
