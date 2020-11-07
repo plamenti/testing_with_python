@@ -1,6 +1,7 @@
 from flask_restful import Resource, reqparse
 from models.user import UserModel
 
+
 class UserRegister(Resource):
     """
     This resource allows users to register by sending a POST request with their username and password.
